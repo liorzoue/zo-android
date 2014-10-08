@@ -1,4 +1,4 @@
 zo-android
 ==========
 
-An app for Zo
+An (android) app for [Zo](https://github.com/liorzoue/Zo)
