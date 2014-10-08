@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_movies"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText"
+        android:title="@string/title_movies" android:icon="@drawable/ic_action_movie"/>
+    
+    <item
+        android:id="@+id/action_tv_shows"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText"
+        android:title="@string/title_tv_shows" android:icon="@drawable/ic_tv_shows"/>
+    
+    <item
+        android:id="@+id/action_pi_info"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/title_pi_info" android:icon="@drawable/ic_action_info"/>
+    
+    <item android:id="@+id/action_config_screen"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/config_screen" android:icon="@drawable/ic_action_config_screen"/>
+    
+	<item android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/settings" android:icon="@drawable/ic_settings"/>
+	
+</menu>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PiZo</string>
+    <string name="app_description">
+        PiZo vous permet de consulter vos films sauvegardés sur votre disque réseau.\n\nL\'application utilise l\'api &quot;Zo&quot;.\nDisponible à l\'adresse suivante : https://github.com/liorzoue/Zo
+    </string>
+    <!-- Titles -->
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_welcome">PiZo</string>
+    <string name="title_pi_info">Informations</string>
+    <string name="title_movies">Movies</string>
+    <string name="title_tv_shows">TV Shows</string>
+    <string name="title_activity_first_use">Welcome to PiZo</string>
+    <!-- Titles for fragement -->
+    <string name="title_fu_fragment_welcome">Welcome</string>
+    <string name="title_fu_fragment_settings">API Settings</string>
+    <!-- Default values -->
+    <string name="default_tag_line"></string>
+    <string name="default_resume"></string>
+    <string name="default_genres"></string>
+    <string name="default_spoken_languages"></string>
+    <string name="default_production_cie"></string>
+    <string name="default_production_countries"></string>
+    <string name="default_runtime"></string>
+    <string name="default_movie_status"></string>
+    <string name="default_movie_release_date"></string>
+    <!-- Labels -->
+    <string name="label_resume">Resume</string>
+    <string name="label_genres">Genres</string>
+    <string name="label_spoken_languages">Spoken languages</string>
+    <string name="label_production_cie">Productions companies</string>
+    <string name="label_production_countries">Productions countries</string>
+    <string name="label_runtime">Runtime</string>
+    <string name="label_movie_status">Status</string>
+    <string name="label_movie_release_date">Release date</string>
+    <string name="label_movie_button_imdb">See on IMDB</string>
+    <!-- UI Strings -->
+    <string name="update">Actualiser</string>
+    <string name="settings">Réglages</string>
+    <string name="movies">Films</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="config_screen">Show config screen</string>
+    <string name="ui_label_drive">Drive</string>
+    <string name="ui_label_mount">Mount</string>
+    <string name="ui_label_type">Type</string>
+    <string name="ui_label_size">Size</string>
+    <!-- Preferences -->
+    <string name="pref_api">API settings</string>
+    <string name="pref_api_path">API URL</string>
+    <string name="pref_api_path_summary">Please enter your Raspberry Pi\'s URL</string>
+    <string name="pref_api_username">Username</string>
+    <string name="pref_api_password">Password</string>
+    <string name="pref_send_report">Send crash reports</string>
+    <string name="pref_send_report_summary">Helps to fix bugs</string>
+    <string name="pref_sync_frequency">Sync frequency</string>
+    <string name="pref_sync_frequency_summary">Set the sync frequency</string>
+    <string name="pref_user_name">Set username</string>
+    <string name="pref_user_name_summary">Set your username</string>
+    <string name="pref_user_profile">User Profile</string>
+    <string name="pref_update_setting">Update Settings</string>
+    <string name="pref_about">About</string>
+    <!-- Others -->
+    <string name="access_backdrop_desc">Picture from movie.</string>
+    <string name="about_text">PiZo Mobile - By E. Liorzou</string>
+    <string name="tag_default_url">http://109.190.19.25/api/</string>
+
+</resources>

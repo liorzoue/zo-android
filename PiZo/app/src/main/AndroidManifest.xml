@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bzh.liorzoue.pizo"
+    android:versionCode="1"
+    android:versionName="0.1-alpha" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="bzh.liorzoue.pizo.PiInfoActivity"
+            android:configChanges="orientation|screenSize"
+            android:icon="@drawable/ic_action_info"
+            android:label="@string/title_pi_info"
+            android:parentActivityName="bzh.liorzoue.pizo.WelcomeActivity" >
+        </activity>
+        <activity
+            android:name="bzh.liorzoue.pizo.FilmActivity"
+            android:configChanges="orientation|screenSize"
+            android:icon="@drawable/ic_action_movie"
+            android:label="@string/title_movies"
+            android:parentActivityName="bzh.liorzoue.pizo.WelcomeActivity" >
+        </activity>
+        <activity
+            android:name="bzh.liorzoue.pizo.FilmDetailActivity"
+            android:configChanges="orientation|screenSize"
+            android:icon="@drawable/ic_action_movie"
+            android:label="@string/title_movies"
+            android:parentActivityName="bzh.liorzoue.pizo.FilmActivity" >
+        </activity>
+        <activity
+            android:name="bzh.liorzoue.pizo.SettingsActivity"
+            android:icon="@drawable/ic_settings"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName="bzh.liorzoue.pizo.PiInfoActivity" >
+        </activity>
+        <activity
+            android:name="bzh.liorzoue.pizo.WelcomeActivity"
+            android:label="@string/title_activity_welcome" >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <intent-filter>                
+                
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+          		<data android:scheme="http" android:host="109.190.19.25"
+                android:path="/zo/launch/app" />
+          		
+
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="bzh.liorzoue.pizo.TvShowsActivity"
+            android:icon="@drawable/ic_tv_shows"
+            android:label="@string/title_tv_shows"
+            android:parentActivityName="bzh.liorzoue.pizo.WelcomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="bzh.liorzoue.pizo.WelcomeActivity" />
+        </activity>
+        <activity
+            android:name="bzh.liorzoue.pizo.FirstUseActivity"
+            android:label="@string/config_screen" >
+        </activity>
+    </application>
+
+</manifest>
